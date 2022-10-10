@@ -6,11 +6,29 @@
 
 body{
     color: black !important;
+    scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif !important;
 }
 
 section.hero-wrapper{
     background-color: white;
+}
+
+.footer{
+    bottom: 0;
+    width: 98vw;
+    height: 20vh;
+}
+
+.footer .copyright{
+    padding-top: 50px;
+    padding-left: 90px;
+    width: 75%;
+}
+
+.footer .social-media{  
+    padding-top: 50px;
+    padding-left: 90px;
 }
 
 header.hero-header{
@@ -31,44 +49,58 @@ a{
     font-size: light !important;
 }
 
-header.hero-header div{
+header.hero-header h3{
     font-weight: bold;
     font-size: 24px;
 }
 
+.hero-header h3 p{
+    font-weight: lighter;
+    font-size: 12px;
+    color: darkgray;
+}
+
+.hero-header h1{
+    font-weight: bold;
+}
+
 .profile-wrapper{
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
 }
 
-.profile-wrapper .description{
-    width: 95%;
-    background-repeat: no-repeat;
-    background-size: cover;
+.personal-wrapper{
+    height: 80vh;
+    padding-top: 20px;
+    padding-left: 90px;
 }
-  
-  .description h1{
-    padding: 150px 0 0 150px;
-    color: black;
+
+.profile-wrapper .description{
+    width: 90%;
+    justify-content: center;
 }
 
 .description p{
-    padding: 10px 0 0 250px;
+    padding-left: 90px;
+    padding-top: 60px;
+    padding-right: 280px;
     color: black;
+    text-size-adjust: 11px;
+    justify-content: center;
 }
 
 .profile-wrapper .image{
-    width: 45%;
+    width: 40%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .image img{
-    width: 28vw;
+    width: 26vw;
     height: 38vw;
 }
   
-  @media (max-width: 760px){
+@media (max-width: 760px){
     .left {
       display: none;
     }
